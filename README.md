@@ -31,18 +31,26 @@ This forecast can help airlines:
 - Optimize pricing strategies.
 - Anticipate changes in demand due to economic factors.
 
-## Visualizations
-![Forecast Comparison](forecast_comparison.png)
-![Long-Term Forecast](long_term_forecast.png)
+## Files in This Repository
+Here’s a breakdown of the files included in this repository:
 
-## Code
-- Python script: `Final_adjusted_code_MG.py`
-- Jupyter Notebook: `Forecasting_Airline_Demand.ipynb`
+### Code
+- **`Final adjusted code MG.py`**: The main Python script for data analysis and forecasting.
+- **`FF Airline code.py`**: Additional Python script for data processing and visualization.
 
-## How to Run
-1. Clone this repository.
-2. Install the required libraries: `pip install -r requirements.txt`.
-3. Run the Python script or Jupyter Notebook.
+### Data
+- **`FM/FINAL.csv`**: The dataset used for analysis, containing monthly data from Jan 2000 to July 2024.
 
-## License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+### Visualizations
+- **`Holt-Winters Seasonal Model.jpg`**: Forecast results from the Holt-Winters Seasonal Model.
+- **`VAR Model Graphs.png.jpg`**: Forecast results from the VAR Model.
+- **`Forecast Comparison Across Models.jpg`**: Comparison of forecasts from all models.
+- **`ETS (Error, Trend, Seasonal) Model.jpg`**: Forecast results from the ETS Model.
+- **`SARIMAX Model.jpg`**: Forecast results from the SARIMAX Model.
+- **`Graph2 Correlation.png`**: Correlation heatmap between variables.
+- **`Primary Target Variables Data Graph1.jpg`**: Time series plot of the primary target variable (RPM).
+
+### Reports and Outputs
+- **`Forecasting Airline Demand- Maria Isabel Gutierrez Port.pdf`**: A detailed report summarizing the project, including methodology, results, and business impact.
+- **`SARIMAX_Future_Forecast.xlsx`**: Excel file containing the SARIMAX model’s future forecast results.
+
