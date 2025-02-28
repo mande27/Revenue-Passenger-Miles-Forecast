@@ -30,11 +30,26 @@ This forecast can help airlines:
 - Plan capacity and staffing.
 - Optimize pricing strategies.
 - Anticipate changes in demand due to economic factors.
+
+## Files in This Repository
+Here’s a breakdown of the files included in this repository:
+
+### Code
+- **[Final adjusted code MG.py](Final_adjusted_code_MG.py)**: The main Python script for data analysis and forecasting.
+- **[FF Airline code.py](FF_Airline_code.py)**: Additional Python script for data processing and visualization.
+
+### Data
+- **[FMFINAL.csv](FMFINAL.csv)**: The dataset used for analysis, containing monthly data from Jan 2000 to July 2024.
+
 ### Visualizations
-- **[Holt-Winters Seasonal Model.jpg](Holt-Winters%20Seasonal%20Model.jpg)**: Forecast results from the Holt-Winters Seasonal Model.
-- **[VAR Model Graphs.png.jpg](VAR%20Model%20Graphs.png.jpg)**: Forecast results from the VAR Model.
-- **[Forecast Comparison Across Models.jpg](Forecast%20Comparison%20Across%20Models.jpg)**: Comparison of forecasts from all models.
-- **[ETS (Error, Trend, Seasonal) Model.jpg](ETS%20(Error,%20Trend,%20Seasonal)%20Model.jpg)**: Forecast results from the ETS Model.
-- **[SARIMAX Model.jpg](SARIMAX%20Model.jpg)**: Forecast results from the SARIMAX Model.
-- **[Graph2 Correlation.png](Graph2%20Correlation.png)**: Correlation heatmap between variables.
-- **[Primary Target Variables Data Graph1.jpg](Primary%20Target%20Variables%20Data%20Graph1.jpg)**: Time series plot of the primary target variable (RPM).
+- **[Holt-Winters_Seasonal_Model.jpg](Holt-Winters_Seasonal_Model.jpg)**: Forecast results from the Holt-Winters Seasonal Model.
+- **[VAR_Model_Graphs.png.jpg](VAR_Model_Graphs.png.jpg)**: Forecast results from the VAR Model.
+- **[Forecast_Comparison_Across_Models.jpg](Forecast_Comparison_Across_Models.jpg)**: Comparison of forecasts from all models.
+- **[ETS_Error_Trend_Seasonal_Model.jpg](ETS_Error_Trend_Seasonal_Model.jpg)**: Forecast results from the ETS Model.
+- **[SARIMAX_Model.jpg](SARIMAX_Model.jpg)**: Forecast results from the SARIMAX Model.
+- **[Graph2_Correlation.png](Graph2_Correlation.png)**: Correlation heatmap between variables.
+- **[Primary_Target_Variables_Data_Graph1.jpg](Primary_Target_Variables_Data_Graph1.jpg)**: Time series plot of the primary target variable (RPM).
+
+### Reports and Outputs
+- **[Forecasting_Airline_Demand-Maria_Isabel_Gutierrez_Port.pdf](Forecasting_Airline_Demand-Maria_Isabel_Gutierrez_Port.pdf)**: A detailed report summarizing the project, including methodology, results, and business impact.
+- **[SARIMAX_Future_Forecast.xlsx](SARIMAX_Future_Forecast.xlsx)**: Excel file containing the SARIMAX model’s future forecast results.
